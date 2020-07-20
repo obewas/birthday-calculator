@@ -1,13 +1,13 @@
 h1 {
     color: maroon;
-    background-color:   
+    text-align: center;
      
 }
 .container {
     position: relative;
     padding: 0;
     background-color: lightslategray; 
-    
+    text-align: center;
 }
 @media screen and (min-width: 480px) {
     body {
@@ -42,5 +42,7 @@ input {
     font-style: initial;
 }
 
-
-  }
+.history {
+    text-align: left;
+    margin-inline: ;
+}
