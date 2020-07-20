@@ -30,8 +30,8 @@ h4 {
     
     
 }
-.brithyear #year#month #date #gender {
-background-color: lightslategray;
+.main .brithyear label {
+    padding-left: 20mm;
 }
 input {
     color: maroon;
