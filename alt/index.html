@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+              
+        <div class="row">
+            <div class="">
+                <div class="col-md-6">
+                    <h1 class="display 3" text-center>Welcome to Smart IQ Lab.</h1>
+                    <hr>
+                    <h2>Enter information below to calculate the day of the week you were born</h2>
+                    <form>
+                        <div class="formgroup">
+                            <div class="yearOfBirth">
+                                Enter year of birth:
+                                <input type="text" class="form-control-lg" placeholder="e.g. 1988">
+                               
+                            </div>
+                            <hr>
+                            <div class="monthOfBirth">
+                                Enter month of birth:
+                                <input type="text" class="form-control-lg" placeholder="e.g. 05 for May">
+                               
+                            </div>
+                            <hr>
+                            <div class="dateOfBirth">
+                                Enter date of birth:
+                                <input type="text" class="form-control-lg" placeholder="e.g. 08 for 8th">
+                               
+                            </div>
+                            <hr>
+                            <div class="gender">
+                                Enter your sex:
+                                <input type="text" class="form-control-lg" placeholder="e.g. male or female">
+                            </div>
+                            <hr>
+                            <button id="btn" onclick="dayOfBirth()">Submit</button>
+                            
+                                
+                            <div id="result">
+                                <div class="card card-primary mb-2">
+                                    <div class="card-block">
+                                        <p>Day of the week born</p>
+                                        document.getElementById("result") = "You were born on " + birthDay
+                                    </div>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </form>
+                </div>
+
+
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,19 @@
+.container-fluid{
+    background-image: url(/images/photo.jpg);
+    padding: 5mm;
+    margin-bottom: 5mm;
+    background-size: cover;
+    height: 100%;
+    
+    
+}
+h1 {
+    text-align: center;
+    color: blue;
+    
+}
+.formgroup {
+    color: maroon;
+    font-size: large;
+    position: relative;
+}
