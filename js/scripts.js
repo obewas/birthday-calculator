@@ -1,11 +1,11 @@
 function dayOfWeek(){
   
-  let year = document.querySelector(".year").value;
-  let month = docment.querySelector(".month").value;
-  let date = docment.querySelector(".date").value;
-  let gender = docment.querySelector(".gender").value;
+  let year = document.getElementById(".year").value;
+  let month = document.getElementById(".month").value;
+  let date = document.getElementById(".date").value;
+  let gender = document.getElementById(".gender").value;
   if (month > 12 || date > 31) {
-    document.querySelector("p").innerHTML = "You entered and invalid number, try again"
+    document.getElementById("p").innerHTML = "You entered and invalid number, try again"
   } else {
   var result = year + month+ date
   }
@@ -25,12 +25,12 @@ function dayOfWeek(){
   male = ['Kwasi','Kwadwo', 'Kwabena','Kwaku','Yaw',' Kofi', 'Kwame'];
   female = ['Akosua', 'Adwoa', 'Abenaa','Akua', 'Yaa','Afua','Ama'];
   if (MM > 12 || DD > 31) {
-    document.querySelector("p").innerHTML = "You entered and invalid number, try again";
+    document.getElementById("p").innerHTML = "You entered and invalid number, try again";
   }
   else if (gender === 'male') {
-    document.querySelector("p").innerHTML = "Your name is " + male[d];
+    document.getElementById("p").innerHTML = "Your name is " + male[d];
   } else {
-    document.querySelector("p").innerHTML = 'Your name is '+ female[d];
+    document.getElementById("p").innerHTML = 'Your name is '+ female[d];
   }
 }
-document.querySelector(.btn).addEventListener("click",dayOfWeek);
+document.getElementById(.btn).addEventListener("click",dayOfWeek);
