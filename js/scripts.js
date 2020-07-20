@@ -1,9 +1,11 @@
-function dayOfWeek(){
+  function dayOfWeek(){
   
   let year = document.getElementById(".year").value;
   let month = document.getElementById(".month").value;
   let date = document.getElementById(".date").value;
   let gender = document.getElementById(".gender").value;
+  
+  
   if (month > 12 || date > 31) {
     document.getElementById("p").innerHTML = "You entered and invalid number, try again"
   } else {
@@ -26,7 +28,7 @@ function dayOfWeek(){
   female = ['Akosua', 'Adwoa', 'Abenaa','Akua', 'Yaa','Afua','Ama'];
   if (MM > 12 || DD > 31) {
     document.getElementById("p").innerHTML = "You entered and invalid number, try again";
-  }
+  } 
   else if (gender === 'male') {
     document.getElementById("p").innerHTML = "Your name is " + male[d];
   } else {
