@@ -1,21 +1,19 @@
 h1 {
     color: maroon;
-    background-color: 
-    
+    background-color:   
      
 }
 .container {
     position: relative;
-    padding: 10px;
-    background-color: gray;
-  
+    padding: 0;
+    background-color: lightslategray; 
 
 }
 main {
     font-size: 25px;
     text-align: center;
-    align-items: center;
-    
+    align-items: center;   
+
 }
 button {
     background-color: greenyellow;
@@ -33,9 +31,8 @@ input {
     scroll-padding-left: 5mm;
 }
 
+.names {
+    font-style: initial;
 }
-.history ul li {
-    display: inline-block
-    
-    
-}
+
+
