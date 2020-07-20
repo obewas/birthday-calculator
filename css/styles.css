@@ -27,7 +27,7 @@ button {
 }
 h4 {
     color: maroon;
-    padding-inline: 0mm;
+    
     
 }
 .brithyear #year#month #date #gender {
@@ -44,5 +44,5 @@ input {
 
 .history {
     text-align: left;
-    margin-inline: ;
+    
 }
