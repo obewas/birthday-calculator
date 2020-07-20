@@ -15,7 +15,8 @@ Setup instructions - includes any scripts that need to be run if necessary.
 The app uses most common web browsers such as chrome, mozilla etc. and a url. 
 
 BDD.
-
+Given the year you were born, the month and the date. The app will calculate the day of the week you were born. 
+The app will then takke your gender, check whether MALE or FEMALE, then based on gender assign you an Akan Culture name.
 
 
 Technologies used.
