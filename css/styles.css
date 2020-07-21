@@ -13,14 +13,16 @@ body html {
 .container {
     
     
-    background-color: lightslategray; 
+    margin-inline: ;
     text-align: center;
     font-family: sans-serif;
     
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 }
 button {
-    background-color: greenyellow;
+    b
 }
 h4 {
     color: maroon;
@@ -65,11 +67,32 @@ input {
     padding-right: 20mm;
     padding-top: 5mm;
     padding-bottom: 5mm;
-    text-align: center;
-    
-    
+    text-align: center; 
+    color: maroon;  
     
 }
+form {
+    padding-left: 0mm;
+}
+.main {
+    text-align: left;
+    color: olive;
+    padding-right: 5mm;
+    float: left
+}
+label {
+    color:olive;
+    padding-left: 10px;
+    display: block;
 
-
-    
+}
+input {
+margin: 0 0 5px;
+padding-left: 40px;
+}
+#year {
+margin-left: 10px;
+}
+#month {
+    margin-left: 5px;
+}
