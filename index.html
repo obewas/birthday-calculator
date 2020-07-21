@@ -24,27 +24,16 @@
         <hr>
         <div class="main">
             <div class="birthYear">
-                <label for="year" style="padding-right: 5mm;"><strong>1. Enter Year:</strong></label>
-                <input type="number" placeholder="e.g.1988" id="year"><br>
-                <hr>
-                <strong style="padding-right: 3mm;">2. Enter Month:</strong>
-                <input type="number" placeholder="e.g. 05 for May" id="month"><br>
-                <hr>
-                <strong style="padding-right: 5mm;">3. Enter Date:</strong>
-                <input type="number" placeholder="e.g.08 for 8th" id="date"><br>
-                <hr>
-                <label for="gender" style=padding-right:20mm><strong>4. Choose your Gender:</strong></label>
-                <select name="gender" id="gender">
-                    <option value="male">Male</option>
-                    <option value="Female">Female</option>            
-                </select>
-                
-                
-                <hr>
-                <button onclick="dayOfWeek()">Submit</button>
-                
-                <input type = "text" id = "result" maxlength="250"><br><br>
-            </div>  
+                <form>  
+                    Enter year:<input type="number" id="year" name="year"/><br/>
+                    Enter month:<input type="number" id="month" name="month"/><br/>  
+                    Enter date:<input type="number" id="date" name="date"/><br/> 
+                    Enter sex:<input type="text" id="gender" name="gender"/><br/>  
+                    <input type="button" value="Submit" onclick="dayOfWeek()"/>  
+                    </form>  
+                    <p id="result"></p>
+                    </body>
+                    </html>
             <hr>
             <div class="history" style="color:maroon;">
                 <h3 style="text-align: left;">History of Akan names</h3>
