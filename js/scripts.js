@@ -22,9 +22,11 @@ function dayOfWeek(){
    var male = ['Kwasi','Kwadwo', 'Kwabena','Kwaku','Yaw',' Kofi', 'Kwame'];
    var female = ['Akosua', 'Adwoa', 'Abenaa','Akua', 'Yaa','Afua','Ama'];
    var gender = document.getElementById('gender').value;
-   if (gender === "male") {
-     document.getElementById("result").innerHTML = ("You were born on a" + " "+ nameOfDays[weekday] + "." + "Your Akan name is "+ male[weekday])
-     } else {
-       document.getElementById("result").innerHTML = ("You were born on a" + " " + nameOfDays[weekday] + "." + "Your Akan name is "+ female[weekday])
+   if (month > 12 || date > 31) {
+    document.getElementById("result").innerHTML = ("You have entered an invalid date format try again");
+   } else if (gender === "male") {
+     document.getElementById("result").innerHTML = ("You were born on a" + " "+ nameOfDays[weekday] + "." + "Your Akan name is "+ male[weekday]);
+  } else {
+       document.getElementById("result").innerHTML = ("You were born on a" + " " + nameOfDays[weekday] + "." + "Your Akan name is "+ female[weekday]);
      }
   } 
