@@ -14,7 +14,7 @@
             <h1>BIRTHDAY CALCULATOR</h1>
             <div class="nav">
                 <p>Calculator</p>
-                <a href="History of Akan names"><p>History</p></a>
+                <a href="#History of Akan names "><p>History</p></a>
                 
             </div>
             
@@ -24,14 +24,26 @@
         <hr>
         <div class="main">
             <div class="birthYear">
-                <form>  
-                    Enter year:<input type="number" id="year" name="year"/><br/>
-                    Enter month:<input type="number" id="month" name="month"/><br/>  
-                    Enter date:<input type="number" id="date" name="date"/><br/> 
-                    Enter sex:<input type="text" id="gender" name="gender"/><br/>  
-                    <input type="button" value="Submit" onclick="dayOfWeek()"/>  
-                    </form>  
-                    <p id="result"></p>
+                <form> 
+                    <label for="year">Enter year of birth: </label>
+                    <input type="number" id="year" name="year"/><br>
+                    <label for="month">Enter month of birth: </label>
+                    <input type="number" id="month" name="month"/><br>
+                    <label for="date">Enter date of birth: </label>
+                    <input type="number" id="date" name="date"/><br>
+
+                    <label for="gender">Choose a your gender:</label>
+
+                    <select name="gender" id="gender">
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      
+                    </select>
+                    <br>
+                                                       
+                    <input type="button" value="Submit" onclick="dayOfWeek()"><br> 
+                </form>  
+                    <p id="result" style="color:blue;"></p>
                     </body>
                     </html>
             <hr>
