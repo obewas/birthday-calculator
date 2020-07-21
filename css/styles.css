@@ -1,98 +1,16 @@
-h1 {
-    color:white;
-    text-align: center;
-    display: block;
-    
-     
-}
-body html {
-    height: 100%;
-    
-    
-}
 .container {
-    
-    
-    margin-inline: ;
-    text-align: center;
-    font-family: sans-serif;
-    
-    background-repeat: no-repeat;
-    background-size: 100%;
-
-}
-button {
-    b
-}
-h4 {
-    color: maroon;
-    
-    
+    background-color: darkcyan;
 }
 
-input {
-    color: maroon;
-    scroll-padding-left: 5mm;
-}
 
-.names {
-    font-style: initial;
-}
 
-.history {
-    text-align: left;
-    
-}
-.header {
-    
-    height: 60px;
-    background: #003366;
-    padding: 0px;
-    margin-left: 0em;
-    margin-right: 0em;
-    text-align: center;
- 
-}
 
-.history h5 {
-    font-size: large;
-}
-  
-.history h3 {
-    font-weight: bold;
-}
-.nav p {
-    font-size: large;
-    padding-left: 20mm;
-    padding-right: 20mm;
-    padding-top: 5mm;
-    padding-bottom: 5mm;
-    text-align: center; 
-    color: maroon;  
-    
-}
-form {
-    padding-left: 0mm;
-}
-.main {
-    text-align: left;
-    color: olive;
-    padding-right: 5mm;
-    float: left
-}
-label {
-    color:olive;
-    padding-left: 10px;
-    display: block;
+
+
 
 }
-input {
-margin: 0 0 5px;
-padding-left: 40px;
-}
-#year {
-margin-left: 10px;
-}
-#month {
-    margin-left: 5px;
-}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
