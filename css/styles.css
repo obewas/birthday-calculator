@@ -1,16 +1,39 @@
 .container {
-    background-color: darkcyan;
+    background-color: lightgray;
+    background-size: cover;
 }
-
-
-
-
-
-
+label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: left;
+    width: 150px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 5px;
+  
+  }
 
 }
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+      background-color: lightslategray;
     }
   }
+#navitems {
+      color: firebrick;
+      height: 20px;
+      font-weight: bold;
+      display: 14px 16px;
+      
+      
+      
+
+      
+
+}
